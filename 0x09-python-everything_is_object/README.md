@@ -1,2 +1,2 @@
-Python inteview questions
+Python
 
