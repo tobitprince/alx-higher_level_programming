@@ -16,7 +16,6 @@ if __name__ == "__main__":
                            pool_pre_ping=True)
     Session = sessionmaker(bind=engine)
     session = Session()
-    
     louisiana = State(name="Louisiana")
     session.add(louisiana)
     session.commit()

@@ -18,7 +18,6 @@ if __name__ == "__main__":
                            pool_pre_ping=True)
     Session = sessionmaker(bind=engine)
     session = Session()
-    
     found = False
     for state in session.query(State):
         if state.name == sys.arv[4]:
